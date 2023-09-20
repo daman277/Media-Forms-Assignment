@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <h1>User Sign Up Form</h1>
+    <hr>
+    <form>
+       <label for="First Name">First Name: </label>
+       <input type="text" id="First Name" name="First Name" minlength="3" maxlength="100" required>
+ <br><br>
+       <label for="Last Name">Last Name: </label>
+       <input type="text" id="Last Name" name="Last Name" minlength="3" maxlength="100" required>
+ <br><br>
+       <label for="Email">Email: </label>
+       <input type="email" id="Email" name="Email" minlength="3" maxlength="50" required>
+ <br><br>
+       <label for="password">Password: </label>
+       <input type="password" id="password" name="password" required>
+ <br><br>
+       <label for="confirmpassword">Confirm Password: </label>
+       <input type="password" id="confirmpassword" name="confirmpassword" required>
+<br><br>
+       <label for="age">Age: </label>
+       <input type="number" name="age" id="age" min="0" max="150" required>
+<br><br>
+       <label>Gender: </label>
+       <label for="male">Male</label>
+       <input type="radio" id="male" name="gender" value="male">
+
+       <label for="female">Female</label>
+       <input type="radio" id="female" name="gender" value="female">
+
+       <label for="Other">Other</label>
+       <input type="radio" id="Other" name="gender" value="Other">
+    <br><br><hr>
+       <label for="terms">Terms & Conditions: <br><br>
+        By using our website and services, you agree to abide 
+        by our terms and conditions. These terms govern your 
+        access to and use of our platform, including any 
+        transactions, interactions, or content submissions. 
+        Please read these terms carefully, as they outline your 
+        rights and responsibilities when using our services. 
+        If you do not agree with any part of these terms, we 
+        kindly request that you refrain from using our platform.
+       </label><br>
+       <label for="I agree">I agree</label>
+       <input type="checkbox" id="terms" name="I disagree" value="I disagree" required>
+       <hr>
+<button type="submit">Submit</button>
+    </form>
+</body>
+</html>
